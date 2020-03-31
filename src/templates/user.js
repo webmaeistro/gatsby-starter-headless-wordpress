@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const User = ({ pageContext }) => {
-    const { name, bio, avatar } = pageContext
+    const { name, bio, avatar } = pageContext;
 
     return (
         <Layout>

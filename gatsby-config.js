@@ -34,12 +34,12 @@ module.exports = {
       resolve: `gatsby-source-wordpress`,
       options: {
         // your wordpress source
-        baseUrl: `madsendialog.wordpress.com`,
+        baseUrl: `https://madsendialog.wordpress.com`,
         protocol: `https`,
         // is it hosted on wordpress.com, or self-hosted?
         hostingWPCOM: true,
         // does your site use the Advanced Custom Fields Plugin?
-        useACF: false,
+        useACF: true,
         // auth: {
         //   htaccess_user: process.env.WP_USER,
         //   htaccess_pass: process.env.WP_PASS,
